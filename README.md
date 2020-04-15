@@ -1,1 +1,1 @@
-# NewSpringBootConfiguration
+# NewSpringBootProjectConfiguration
