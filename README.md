@@ -5,14 +5,7 @@
 ##MybatisPlus和
 ##MybatisPlus with Redis
 
-数据库表 user
-字段	类型	大小	备注
-id	int	11	用户标识id
-username	varchar	255	用户名
-password	varchar	255	密码
-nickname	varchar	255	昵称
-email	varchar	255	邮箱
-create_time	varchar	30	昵称
+##数据库表 user
  字段|	类型|	大小|	备注
  --|-- | ----- | ------  
 id	|int	|11|	用户标识id
@@ -21,3 +14,15 @@ password|	varchar|	255	|密码
 nickname|	varchar|	255	|昵称
 email|	varchar|	255	|邮箱
 create_time|	varchar|	30	|昵称
+
+CREATE DATABASE `test` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `nickname` varchar(255) NOT NULL DEFAULT '"aaa"',
+  `email` varchar(255) NOT NULL,
+  `create_time` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
