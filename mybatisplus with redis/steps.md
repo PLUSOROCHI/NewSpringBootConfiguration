@@ -2,22 +2,35 @@
 
 ## pom
 springboot2.0  使用Lettuce
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-cache</artifactId>
-</dependency>
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-redis</artifactId>
+'<dependency>
+	
+	<groupId>org.springframework.boot</groupId>
+	
+	<artifactId>spring-boot-starter-cache</artifactId>
+	
 </dependency>
 
+<dependency>
+	
+	<groupId>org.springframework.boot</groupId>
+	
+	<artifactId>spring-boot-starter-data-redis</artifactId>
+	
+</dependency>
+'
 springboot2.0
-<parent>
+`<parent>
+
       <groupId>org.springframework.boot</groupId>
+      
       <artifactId>spring-boot-starter-parent</artifactId>
+      
       <version>2.2.4.RELEASE</version>
+      
       <relativePath/> <!-- lookup parent from repository -->
-</parent>
+      
+</parent>`
+
 
 ## application.properties
 
