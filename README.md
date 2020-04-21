@@ -2,10 +2,33 @@
 帮助快速构建可运行SpringBoot项目
 
 已完成搭建:
-##MybatisPlus和
+
+## MybatisPlus配置
+
+版本信息：
+
+java:1.8
+
+spring-boot:2.2.4.RELEASE
+
+mybatis-plus-boot-starter:3.3.0
+
+junit:4.12
+
 ##MybatisPlus with Redis
 
+版本信息：
+
+java:1.8
+
+spring-boot:2.2.4.RELEASE
+
+mybatis-plus-boot-starter:3.3.0
+
+junit:4.12
+
 ##数据库表 user
+
  字段|	类型|	大小|	备注
  --|-- | ----- | ------  
 id	|int	|11|	用户标识id
