@@ -18,7 +18,7 @@ mybatis-plus-boot-starter:3.3.0
 junit:4.12  
 
 ## MybatisPlus with Redis Jedis  
-[mybatisplus with redis(Lettuce)](https://github.com/includeno/NewSpringBootProjectConfiguration/blob/master/mybatisplus%20redis%20Jedis/steps%20redis%20Jedis.md)
+[mybatisplus with redis(Jedis)](https://github.com/includeno/NewSpringBootProjectConfiguration/blob/master/mybatisplus%20redis%20Jedis/steps%20redis%20Jedis.md)  
 版本信息：  
 java:1.8  
 spring-boot:2.2.4.RELEASE  
