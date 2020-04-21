@@ -25,6 +25,7 @@ spring-boot:2.2.4.RELEASE
 mybatis-plus-boot-starter:3.3.0  
 junit:4.12  
 jedis:3.1.0  
+commons-pool2：2.7.0  
 
 ## 数据库表 user
 
