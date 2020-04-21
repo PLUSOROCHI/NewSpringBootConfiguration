@@ -15,7 +15,7 @@ mybatis-plus-boot-starter:3.3.0
 
 junit:4.12
 
-##MybatisPlus with Redis
+## MybatisPlus with Redis
 
 版本信息：
 
@@ -27,7 +27,19 @@ mybatis-plus-boot-starter:3.3.0
 
 junit:4.12
 
-##数据库表 user
+## MybatisPlus with Redis
+
+版本信息：
+
+java:1.8
+
+spring-boot:2.2.4.RELEASE
+
+mybatis-plus-boot-starter:3.3.0
+
+junit:4.12
+
+## 数据库表 user
 
  字段|	类型|	大小|	备注
  --|-- | ----- | ------  
@@ -44,7 +56,7 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `nickname` varchar(255) NOT NULL DEFAULT '"aaa"',
+  `nickname` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `create_time` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
