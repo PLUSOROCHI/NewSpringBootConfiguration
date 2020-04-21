@@ -2,7 +2,8 @@
 
 ## step1:配置pom
 springboot2.0  使用Lettuce
-'<dependency>
+```
+<dependency>
 	
 	<groupId>org.springframework.boot</groupId>
 	
@@ -16,10 +17,10 @@ springboot2.0  使用Lettuce
 	
 	<artifactId>spring-boot-starter-data-redis</artifactId>
 	
-</dependency>'
+</dependency>
 
 springboot2.0
-`<parent>
+<parent>
 
       <groupId>org.springframework.boot</groupId>
       
@@ -29,8 +30,8 @@ springboot2.0
       
       <relativePath/> <!-- lookup parent from repository -->
       
-</parent>`
-
+</parent>
+```
 
 ## step2:配置application.properties
 
@@ -74,8 +75,7 @@ spring.redis.timeout=300
 
 ## step3:编写redis配置类
 
-`package com.example.demo.config;  
-  
+```
 import com.fasterxml.jackson.databind.jsontype.impl.LaissezFaireSubTypeValidator;  
 import org.springframework.cache.annotation.CachingConfigurerSupport;  
 import org.springframework.beans.factory.annotation.Autowired;  
@@ -160,11 +160,12 @@ public class RedisConfig extends CachingConfigurerSupport {
         return new RedisCacheManager(redisCacheWriter, redisCacheConfiguration);
     }
 }
-`
+```
 
 ## step4:Application启动类上加上可缓存注解@EnableCaching  
 ## step5:编写Service类
-`
+
+```
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;  
 
 import org.springframework.beans.factory.annotation.Autowired;  
@@ -210,4 +211,6 @@ public class UserService{
         userMapper.insert(user);
 	
     }
-}`
+}
+```
+
