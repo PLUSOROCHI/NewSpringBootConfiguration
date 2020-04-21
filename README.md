@@ -15,29 +15,20 @@ mybatis-plus-boot-starter:3.3.0
 
 junit:4.12
 
-## MybatisPlus with Redis
+## MybatisPlus with Redis Lettuce  
+版本信息：  
+java:1.8  
+spring-boot:2.2.4.RELEASE  
+mybatis-plus-boot-starter:3.3.0  
+junit:4.12  
 
-版本信息：
-
-java:1.8
-
-spring-boot:2.2.4.RELEASE
-
-mybatis-plus-boot-starter:3.3.0
-
-junit:4.12
-
-## MybatisPlus with Redis
-
-版本信息：
-
-java:1.8
-
-spring-boot:2.2.4.RELEASE
-
-mybatis-plus-boot-starter:3.3.0
-
-junit:4.12
+## MybatisPlus with Redis Jedis  
+版本信息：  
+java:1.8  
+spring-boot:2.2.4.RELEASE  
+mybatis-plus-boot-starter:3.3.0  
+junit:4.12  
+jedis:3.1.0  
 
 ## 数据库表 user
 
