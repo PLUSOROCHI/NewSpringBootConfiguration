@@ -1,43 +1,31 @@
 # NewSpringBootProjectConfiguration
 帮助快速构建可运行SpringBoot项目
 
-已完成搭建:
-
-## MybatisPlus配置
-
+已完成搭建:  
+## MybatisPlus配置  
 版本信息：
+java:1.8  
+spring-boot:2.2.4.RELEASE  
+mybatis-plus-boot-starter:3.3.0  
+junit:4.12  
 
-java:1.8
+## MybatisPlus with Redis Lettuce  
+[mybatisplus with redis(Lettuce)](https://github.com/includeno/NewSpringBootProjectConfiguration/blob/master/mybatisplus%20redis%20Lettuce/steps%20redis%20Lettuce.md)  
+版本信息：  
+java:1.8  
+spring-boot:2.2.4.RELEASE  
+mybatis-plus-boot-starter:3.3.0  
+junit:4.12  
 
-spring-boot:2.2.4.RELEASE
-
-mybatis-plus-boot-starter:3.3.0
-
-junit:4.12
-
-## MybatisPlus with Redis
-
-版本信息：
-
-java:1.8
-
-spring-boot:2.2.4.RELEASE
-
-mybatis-plus-boot-starter:3.3.0
-
-junit:4.12
-
-## MybatisPlus with Redis
-
-版本信息：
-
-java:1.8
-
-spring-boot:2.2.4.RELEASE
-
-mybatis-plus-boot-starter:3.3.0
-
-junit:4.12
+## MybatisPlus with Redis Jedis  
+[mybatisplus with redis(Jedis)](https://github.com/includeno/NewSpringBootProjectConfiguration/blob/master/mybatisplus%20redis%20Jedis/steps%20redis%20Jedis.md)  
+版本信息：  
+java:1.8  
+spring-boot:2.2.4.RELEASE  
+mybatis-plus-boot-starter:3.3.0  
+junit:4.12  
+jedis:3.1.0  
+commons-pool2：2.7.0  
 
 ## 数据库表 user
 
